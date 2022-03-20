@@ -1,3 +1,7 @@
+
+// Falta os exercicios: 10, 11
+
+
 // exercicio 1
 
 // const a = 7
