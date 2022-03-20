@@ -72,12 +72,35 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // exercicio 7
 
-let menor = numbers[0]
+// let menor = numbers[0]
 
-for (i = 0; i < numbers.length; ++i) {
-    if (numbers[i] < menor) {
-        menor = numbers[i]
-    }
+// for (i = 0; i < numbers.length; ++i) {
+//     if (numbers[i] < menor) {
+//         menor = numbers[i]
+//     }
+// }
+
+// console.log (menor)
+
+// exercicio 8
+
+// let array= []
+
+// for (i = 1; i < 26; ++i) {
+//     array.push (i)
+// }
+
+// console.log (array)
+
+// exercicio 9
+
+let array= []
+
+for (i = 1; i < 26; ++i) {
+    array.push (i)
 }
 
-console.log (menor)
+for (a of array) {
+    console.log (a/2)
+}
+
