@@ -60,26 +60,66 @@
 
 // exercicio 6
 
-let chessPiece = 'pawn'
+// let chessPiece = 'pawn'
 
-switch (chessPiece) {
-    case 'king': console.log ('one square in any direction')
-        break;
+// switch (chessPiece) {
+//     case 'king': console.log ('one square in any direction')
+//         break;
 
-    case 'queen': console.log ('any number of squares in any direction')
-        break;
+//     case 'queen': console.log ('any number of squares in any direction')
+//         break;
 
-    case 'rook': console.log ('any number of square in a straight line')
-        break
+//     case 'rook': console.log ('any number of square in a straight line')
+//         break
 
-    case 'bishop': console.log ('any number of square diagonally')
-        break
+//     case 'bishop': console.log ('any number of square diagonally')
+//         break
 
-    case 'knight': console.log ('moves on an extended diagonal from one corner of any two-by-three rectangle of squares to the farthest opposite corner')
-        break
+//     case 'knight': console.log ('moves on an extended diagonal from one corner of any two-by-three rectangle of squares to the farthest opposite corner')
+//         break
 
-    case 'pawn': console.log ('moves forward exactly one square, or optionally, two squares when on its starting square')
+//     case 'pawn': console.log ('moves forward exactly one square, or optionally, two squares when on its starting square')
     
-    default: console.log ('sorry, this is not a chess piece')
-        break;
-}
+//     default: console.log ('sorry, this is not a chess piece')
+//         break;
+// }
+
+// exercicio 7
+
+// let nota = 55
+
+// if (nota < 0 || nota > 100) {
+//     console.log ('esta nota não é valida')
+// } else if (nota >= 90) {
+//     console.log ('A')
+// } else if (nota >=80) {
+//     console.log ('B')
+// } else if (nota >=70) {
+//     console.log ('C') 
+// } else if (nota >=60) {
+//     console.log ('D') 
+// } else if (nota >=50) {
+//     console.log ('E')
+// } else {
+//     console.log ('F')
+// }
+
+// exercicio 8
+
+// const a = 3
+// const b = 6
+// const c = 3
+
+// if (a%2 === 0 || b%2 === 0 || c%2 === 0) {
+//     console.log (true)
+// } else {
+//     console.log (false)
+// }
+
+// exercicio 9
+
+// if (a%2 === 1 || b%2 === 1 || c%2 === 1) {
+//     console.log (true)
+// } else {
+//     console.log (false)
+// }
